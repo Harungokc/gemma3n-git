@@ -68,6 +68,7 @@ KURALLAR:
 5. `git init` komutunu sadece bağlamda "Bu bir Git deposu değil" yazıyorsa üret.
 6. `git remote add` komutunu sadece bağlamda "Uzak Depo: 'origin' ayarlanmamış" yazıyorsa üret.
 7. `git push` komutlarında, her zaman bağlamda belirtilen "Aktif Dal" adını kullan. Örneğin: `git push origin <AKTIF_DAL_ADI>`
+8. Sadece ve sadece kullanıcı ilk defa github hesabıma yükliyorum derse Lütfen '<GITHUB_URL>' için bir değer girin sor.
 ---
 KULLANICI TALEBİ: {user_prompt}
 ---
@@ -185,3 +186,4 @@ SADECE KOMUTLAR:
 if __name__ == "__main__":
     assistant = TerminalAssistant()
     assistant.run()
+    
